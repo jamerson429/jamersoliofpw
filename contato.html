@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jamersólio</title>
+</head>
+<body>
+    
+    <header>
+<!--Interface-->
+        <div class="interface">
+           <div class="logo">
+                <a href="#">
+                    <img src="images/LOGO.png" alt="Logo site">
+                </a>
+           </div> 
+
+<!--Menu do site-->         
+           <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE MIM</a></li>
+                    <li><a href="qualificacoes.html">FORMAÇÃO</a></li>
+                    <li><a href="portfolio.html">PORTIFÓLIO</a></li>
+                </ul>
+           </nav>
+
+           <div class="btn-contato">
+                <a href="contato.html">
+                    <button>Contato</button>
+                </a>
+           </div>
+        </div>
+    </header>
+    <main>
+        <h2>Contato</h2>
+        <div style="text-align: center;">
+            <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
